@@ -17,9 +17,15 @@ If you don't have node installed, I highly recommend using the nvm for managing 
 1. cd server
 2. npm install -D typescript nodemon
 3. npm install express @types/express
-4. Write code in src/index.ts
+4. npm install morgan @types/morgan
+5. Write code in src/index.ts
 
 # Automatically watch for changes
 1. nodemon ./dist/index.js
 2. npx tsc --watch
+
+# Configure eslint
+1. npm install --save-dev eslint @eslint/js @types/eslint__js typescript-eslint
+2. npm run lint
+
 
